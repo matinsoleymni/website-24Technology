@@ -1,0 +1,2084 @@
+/* 
+
+     Normalize
+
+*/
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+
+/**
+   * Add the correct display in IE 10+.
+   */
+
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+
+[hidden] {
+  display: none;
+}
+
+/* 
+  
+       Font-Face
+  
+  */
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url(/Fonts/Poppins-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url(/Fonts/Poppins-Bold.ttf) format(truetype);
+}
+@font-face {
+  font-family: "Poppins ExtraBold";
+  src: url(/Fonts/Poppins-ExtraBold.ttf) format(truetype);
+}
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url(/Fonts/Poppins-SemiBold.ttf) format(truetype);
+}
+
+/* 
+  
+       App
+  
+  */
+
+.container {
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* 
+
+     App - Style
+
+*/
+
+/*   Header   */
+
+/* Header Top */
+
+.header-wrapper {
+  background-color: #111111;
+}
+.header-top {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins Regular";
+  font-size: 1.2rem;
+}
+.header-top_relationship {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heaeder-top_number {
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heaedr-top_email {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-top_email-img {
+  margin-right: 0.2rem;
+}
+.header-top_social {
+  padding-left: 1rem;
+}
+.header-top_twitter {
+  padding-right: 0.5rem;
+}
+.header-top_youtube {
+  padding-left: 0.5rem;
+}
+
+/* Nav BAr */
+
+.nav {
+  margin-top: 1rem;
+}
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo_img {
+  width: 25rem;
+}
+.menus {
+  margin-left: 17rem;
+}
+.menu {
+  display: flex;
+}
+.menu-item {
+  list-style-type: none;
+  margin-right: 3.5rem;
+}
+.menu-item_link {
+  font-family: "Poppins Regular";
+  color: #242424;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+.menu-item_link:hover {
+  color: #1d80e2;
+}
+.nav-button {
+  background-color: #0856a2;
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+.nav-button:hover {
+  background-color: #1d80e2;
+  border-radius: 0.7rem;
+}
+
+.nav-btn_link {
+  font-family: "Poppins Regular";
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* 
+
+
+     ---- Section Home ----
+
+
+*/
+
+.home-wrapper {
+  display: flex;
+}
+.home-image_left {
+  background-image: linear-gradient(to bottom, #061899, #5a21e3);
+  height: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 43.9rem;
+}
+.home-title {
+  max-width: 17rem;
+  font-family: "Poppins Bold";
+  color: #fff;
+  margin: 4rem 0 0 -7rem;
+}
+.home-description {
+  font-family: "Poppins Regular";
+  color: #fff;
+  font-size: 1.5rem;
+  max-width: 24rem;
+  margin-top: 4rem;
+}
+.home-link {
+  font-family: "Poppins Regular";
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1.2rem;
+  width: 16rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin: 3rem 0 0 -8rem;
+  transition: all 0.3s;
+}
+.home-link:hover {
+  border-radius: 0.9rem;
+}
+.home-link:hover .home-link-svg {
+  margin-left: 1rem;
+}
+.home-link-svg {
+  margin-left: 0.7rem;
+  transition: all 0.3s;
+}
+
+.home-img_ri {
+  width: 91rem;
+  height: 52rem;
+}
+
+/* 
+
+
+     ---- Section Design ----
+
+
+*/
+
+.design-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+.bluestone-img {
+  width: 27rem;
+  margin-top: 1.9rem;
+}
+.bluestone-title::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 6.5rem;
+  height: 0.2rem;
+  top: 7.5rem;
+  background-color: #0856a2;
+}
+.bluestone-title {
+  font-family: "Poppins Bold";
+  max-width: 23rem;
+  margin-top: 4.9rem;
+}
+.description {
+  font-family: "Poppins Regular";
+  font-size: 1.3rem;
+}
+.explanation {
+  max-width: 55rem;
+}
+.explanation-2 {
+  max-width: 55rem;
+}
+.description-links {
+  display: flex;
+  align-items: center;
+}
+.description-link {
+  color: #0856a2;
+  font-size: 1.2rem;
+}
+.description-link_img {
+  width: 1.1rem;
+  margin-left: 0.5rem;
+}
+
+/* 
+
+
+     ---- Section what-we_do ----
+
+
+*/
+
+.section-head {
+  text-align: center;
+  margin: 5rem 0 3rem 0;
+}
+.section-title {
+  font-family: "Poppins ExtraBold";
+  margin-bottom: 0;
+}
+.section-description {
+  font-family: "Poppins Regular";
+  margin-top: 0;
+}
+.what-wrapper {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper-1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4rem;
+}
+.wrappwe-2 {
+  display: flex;
+  flex-direction: row;
+}
+.exhibitions {
+  padding-right: 4rem;
+}
+.exhibitions-bg_img {
+  position: absolute;
+  width: 60rem;
+  bottom: 40rem;
+  z-index: 0;
+}
+.exhibitions-img {
+  width: 60rem;
+}
+.exhibitions-title {
+  font-family: "Poppins Bold";
+  color: #fff;
+  margin: -17rem 0 0 3rem;
+  position: relative;
+}
+.exhibition-title_h2 {
+  max-width: 46rem;
+}
+.exhibitions-links {
+  display: flex;
+  align-items: center;
+}
+.exhibition-link {
+  font-family: "Poppins Regular";
+  color: #fff;
+  font-size: 1.3rem;
+}
+.exhibitions-link_svg {
+  width: 1.3rem;
+  margin: 0 0 -0.3rem 0.5rem;
+}
+.Build-bg_img {
+  position: absolute;
+  width: 60rem;
+  bottom: 40rem;
+  z-index: 0;
+}
+.Build-img {
+  width: 60rem;
+}
+.Build-title {
+  font-family: "Poppins Bold";
+  color: #fff;
+  margin: -9rem 0 0 3rem;
+  position: relative;
+}
+.Marketing {
+  padding-right: 4rem;
+}
+.Marketing-bg_img {
+  position: absolute;
+  width: 60rem;
+  bottom: -0.4rem;
+  z-index: 0;
+}
+.Marketing-img {
+  width: 60rem;
+}
+.Marketing-title {
+  font-family: "Poppins Bold";
+  color: #fff;
+  margin: -9rem 0 0 3rem;
+  position: relative;
+}
+.branding {
+  position: relative;
+}
+.branding-bg_img {
+  position: absolute;
+  width: 60rem;
+  bottom: -0.4rem;
+  z-index: 0;
+}
+.branding-img {
+  width: 60rem;
+}
+.branding-title {
+  font-family: "Poppins Bold";
+  color: #fff;
+  margin: -9rem 0 0 3rem;
+  position: relative;
+}
+
+/* 
+
+
+     ---- Section Work ----
+
+
+*/
+
+.work-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.work-img-one {
+  width: 26rem;
+}
+.work-image-two {
+  position: relative;
+}
+.work-img-two {
+  width: 62rem;
+  height: 32.4rem;
+}
+.work-two-titlw {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  width: 8rem;
+  background-color: #ff3d55;
+  color: #fff;
+  text-align: center;
+}
+.work-two-text {
+  font-family: "Poppins SemiBold";
+  font-size: 3rem;
+  margin: 0 0 0 0;
+}
+.work-two-text-2 {
+  font-family: "Poppins Regular";
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+.work-image-three {
+  position: relative;
+}
+.work-img-three {
+  width: 26rem;
+}
+.work-three-titlw {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  width: 8rem;
+  background-color: #ff3d55;
+  color: #fff;
+  text-align: center;
+}
+.work-three-text {
+  font-family: "Poppins SemiBold";
+  font-size: 3rem;
+  margin: 0 0 0 0;
+}
+.work-three-text-2 {
+  font-family: "Poppins Regular";
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+/* work Box */
+
+.work-box {
+  position: absolute;
+  left: 26rem;
+  bottom: -7rem;
+  background-color: #fff;
+  height: 16.5rem;
+  box-shadow: 0 2rem 2rem -6px;
+  border-radius: 0.5rem;
+}
+
+.work-box_title {
+  font-family: "Poppins Bold";
+  color: #0856a2;
+  font-size: 1.8rem;
+  max-width: 24rem;
+  line-height: 2.3rem;
+  padding-left: 2rem;
+}
+.work-box_txt {
+  font-family: "Poppins Regular";
+  font-size: 1.2rem;
+  padding-left: 2rem;
+}
+.workpbox_span {
+  font-family: "Poppins SemiBold";
+  font-size: 1.2rem;
+}
+.work-box_km {
+  font-family: "Poppins Regular";
+  font-size: 1.2rem;
+  padding-left: 2rem;
+}
+.exhibition-link--color {
+  color: #0856a2;
+  padding-left: 2rem;
+}
+
+/* 
+
+
+     ---- Section Company ----
+
+
+*/
+
+.company {
+  background-color: #3d348d;
+}
+.company-wrapper {
+  margin-top: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40rem;
+}
+.company-description {
+  max-width: 56rem;
+  margin-left: 8rem;
+}
+.company-description_title {
+  font-family: "Poppins SemiBold";
+  color: #fff;
+  padding-top: 1rem;
+}
+.company-title_image {
+  width: 3rem;
+  position: absolute;
+  left: 7rem;
+  top: 9.5rem;
+}
+.company_title {
+  font-size: 1.5rem;
+  max-width: 31rem;
+}
+.company_txt {
+  font-family: "Poppins Regular";
+  color: #fff;
+  font-size: 1.2rem;
+  max-width: 35rem;
+}
+.company_span1 {
+  font-family: "Poppins SemiBold";
+  color: #fff;
+  font-size: 1.2rem;
+}
+.company_span2 {
+  font-family: "Poppins Regular";
+  color: #fff;
+  font-size: 1.2rem;
+}
+.company-image {
+  margin: 3rem 0 0 -3rem;
+}
+.company-image_left {
+  width: 1.5rem;
+  padding-bottom: 2.2rem;
+  margin-right: 1rem;
+}
+.company-image_1 {
+  width: 6rem;
+}
+.company-image_2 {
+  width: 6rem;
+}
+.company-image_3 {
+  width: 6rem;
+}
+.company-image_4 {
+  width: 6rem;
+}
+.comapny-image_right {
+  width: 1.5rem;
+  padding-bottom: 2.2rem;
+  margin-left: 1rem;
+}
+
+/* Company Logo */
+
+.compan-logo {
+  margin-right: 7rem;
+}
+.company-logo_1 {
+  margin-bottom: 3.8rem;
+}
+.company-logo_img1 {
+  width: 9rem;
+  margin-right: 6rem;
+}
+.company-logo_img2 {
+  width: 8rem;
+  margin-right: 6rem;
+}
+.company-logo_img3 {
+  width: 8rem;
+}
+.company-logo_2 {
+  margin-bottom: 3.8rem;
+}
+.company-logo_img4 {
+  width: 19rem;
+}
+.company-logo_img5 {
+  width: 15rem;
+  margin-left: 7rem;
+}
+.comapany-logo_img6 {
+  width: 19rem;
+}
+.comapany-logo_img7 {
+  width: 12rem;
+  margin-left: 10rem;
+}
+
+/* 
+
+
+     ---- Section Blogs ----
+
+
+*/
+
+.blogs-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+.blogs-questions {
+  margin-bottom: 3rem;
+}
+.blogs-questions_img {
+  width: 35rem;
+}
+.blogs-questions_descriptions {
+  margin-top: -0.8rem;
+  border: 1px solid #d8d8d8;
+  max-width: 35rem;
+}
+
+.blogs-questions_titr {
+  display: flex;
+  max-width: 35rem;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.blogs-questions_months {
+  font-family: "Poppins Regular";
+  color: #0856a2;
+  text-align: center;
+  margin-top: -2rem;
+}
+.blogs-questions_month1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+.blogs-questions_month2 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+.blogs-questions_title {
+  font-family: "Poppins SemiBold";
+}
+.blogs-questions_h3 {
+  font-size: 1.7rem;
+  max-width: 25rem;
+  border-left: 1px solid #d8d8d8;
+  padding-left: 2rem;
+}
+.blogs-questions_txt {
+  color: #707070;
+  font-family: "Poppins Regular";
+  font-size: 1.2rem;
+  max-width: 31rem;
+  padding-left: 3rem;
+}
+.blogs-questions_link {
+  margin-bottom: 2rem;
+}
+.blogs-link {
+  font-size: 1.2rem;
+  padding: 1rem 0 0 3rem;
+}
+
+/* 
+
+
+     ---- Section Form ----
+
+
+*/
+
+.form-complete_text {
+  font-family: "Poppins SemiBold";
+  color: #242424;
+  font-size: 2rem;
+}
+.form-wrapper {
+  display: flex;
+  align-items: center;
+}
+.form-talk {
+  margin-left: 4.8rem;
+  margin-top: -8rem;
+}
+.form-talk_title {
+  font-family: "Poppins ExtraBold";
+  font-size: 3rem;
+  max-width: 21rem;
+  margin-bottom: 0;
+}
+.form-talk_text {
+  font-family: "Poppins Regular";
+  color: #707070;
+  font-size: 1.2rem;
+  max-width: 26rem;
+  margin-top: 0;
+}
+.form-talk_email,
+.form-talk_number {
+  font-family: "Poppins SemiBold";
+  color: #0856a2;
+  font-size: 1.3rem;
+}
+
+/* Form Complete */
+
+.form-complete {
+  display: flex;
+  margin-left: 13rem;
+}
+.form-complete_left {
+  margin-right: 2rem;
+}
+.form-input_name,
+.form-input_email,
+.form-input_company,
+.form-input_phone,
+.form-input_sevice,
+textarea {
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #707070;
+  font-family: "Poppins Regular";
+}
+.form-input_name,
+.form-input_email,
+.form-input_company,
+.form-input_phone,
+.form-input_sevice,
+.option1,
+.option2,
+.option3,
+.option4,
+.option5,
+.form-select_menu,
+textarea::placeholder {
+  font-family: "Poppins Regular";
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+  width: 37rem;
+  color: #999999;
+}
+.form-select_menu {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  width: 37rem;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+  font-family: "Poppins Regular";
+  color: #736969;
+}
+.form-complete_right {
+  margin-top: 6.5rem;
+}
+.form-btn_wrapper {
+  margin-left: -39rem;
+  margin-top: 3rem;
+}
+textarea {
+  width: 76rem;
+  height: 7rem;
+}
+.form-button {
+  width: 76rem;
+  background-color: #0856a2;
+  height: 4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-button_link {
+  font-family: "Poppins Regular";
+  color: #fff;
+}
+
+/* 
+
+
+     ---- Footer ----
+
+
+*/
+
+.footer {
+  background-color: #111111;
+  margin-top: 6rem;
+}
+
+.footer-location {
+  display: flex;
+  align-items: center;
+}
+.footer-locaton--mt {
+  margin-top: -5rem;
+}
+
+.footer-location_tit {
+  font-family: "Poppins SemiBold";
+  color: #d8d8d8;
+  font-size: 4rem;
+}
+.footer-location_span {
+  font-family: "Poppins Regular";
+  color: #999999;
+  font-size: 0.8rem;
+  display: block;
+  margin: -4.5rem 0 0 5.9rem;
+}
+.footer-location_span::after,
+.footer-location_span::before {
+  content: "";
+  width: 5rem;
+  height: 0.1rem;
+  border: 1px solid #999999;
+  display: block;
+}
+.footer-location_span::after {
+  content: "";
+  position: absolute;
+  top: 11.2rem;
+  left: 5.2rem;
+}
+.footer-location_span::before {
+  position: absolute;
+  top: 11.2rem;
+  left: 20rem;
+}
+
+.footer-menus_wrapper {
+  display: flex;
+}
+.footer-location_place--mt {
+  margin-top: 11rem;
+}
+.footer-location_txt {
+  font-family: "Poppins Bold";
+  color: #fff;
+}
+.footer-location_loc {
+  font-family: "Poppins Regular";
+  margin-bottom: 1rem;
+}
+.footer-location_img {
+  width: 1.3rem;
+  margin: 0 1rem 0.5rem 0;
+}
+.footer-location_address {
+  color: #999999;
+  display: inline-block;
+  font-size: 1.1rem;
+  max-width: 28rem;
+}
+
+.footer-location_phone {
+  font-family: "Poppins Regular";
+  margin-bottom: 1rem;
+}
+.footer-location_phone-img {
+  width: 1.6rem;
+  margin-right: 1rem;
+  margin-bottom: -0.5rem;
+}
+.footer-location_number {
+  color: #999999;
+  font-size: 1.3rem;
+}
+.footer-location_email {
+  font-family: "Poppins Regular";
+}
+.footer-location_email-img {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+.footer-location_email-span {
+  color: #999999;
+  font-size: 1.3rem;
+}
+.footer-menus-1 {
+  margin: 0 10rem 0 34rem;
+  padding-top: 6rem;
+}
+
+.footer-menu_span {
+  font-family: "Poppins SemiBold";
+  color: #fff;
+  margin-bottom: 1rem;
+  display: block;
+}
+.footer-menu_item {
+  list-style-type: none;
+}
+.footer-menu_link {
+  color: #d8d8d8;
+  font-family: "Poppins Regular";
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+.footer-menu_link:hover {
+  color: #0856a2;
+}
+.footer-menus-2 {
+  padding-top: 6rem;
+}
+
+/* Footer CopyRight */
+
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  border-top: 1px solid #999999;
+  padding-top: 3rem;
+}
+
+.footer-copyright_title {
+  font-family: "Poppins Regular";
+  color: #999999;
+  font-size: 1.2rem;
+}
+.footer-copyright_txt {
+  margin-bottom: 0;
+}
+.footer-copyright_use {
+  display: flex;
+  align-items: center;
+}
+.footer-copyright_use-txt1 {
+  border-right: 1px solid #999999;
+  padding-right: 2rem;
+  color: #999999;
+  transition: all 0.3s;
+}
+.footer-copyright_use-txt2 {
+  border-right: 1px solid #999999;
+  padding: 0 2rem 0 2rem;
+  color: #999999;
+  transition: all 0.3s;
+}
+.footer-copyright_use-txt3 {
+  padding-left: 2rem;
+  color: #999999;
+  transition: all 0.3s;
+}
+.footer-copyright_use-txt1:hover {
+  color: #0856a2;
+}
+.footer-copyright_use-txt2:hover {
+  color: #0856a2;
+}
+.footer-copyright_use-txt3:hover {
+  color: #0856a2;
+}
+
+.footer-copyright_social {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social_logo-1,
+.footer-social_logo-2,
+.footer-social_logo-3,
+.footer-social_logo-4 {
+  border-right: 1px solid #999999;
+  padding-right: 2rem;
+}
+.footer-social_logo-2,
+.footer-social_logo-3,
+.footer-social_logo-4,
+.footer-social_logo-5 {
+  padding-left: 2rem;
+}
+
+
+/* 
+  
+       Responsive
+  
+  */
+
+/* 
+
+--Max Width
+
+*/
+
+@media screen and (max-width: 1580px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-logo_img {
+    display: none;
+  }
+  .menus {
+    margin-left: 0;
+  }
+  .home-img_ri {
+    width: 72rem;
+    height: 52rem;
+  }
+  .wrapper-1,
+  .wrappwe-2 {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper-1 {
+    margin-bottom: 0;
+  }
+  .exhibitions,
+  .Marketing {
+    padding-right: 0;
+  }
+  .exhibitions-bg_img {
+    bottom: 114.5rem;
+  }
+  .Build-bg_img {
+    bottom: 76rem;
+  }
+  /* .exhibitions,
+.Build,
+.Marketing{
+  margin-bottom: 2rem;
+} */
+  .Build {
+    margin: 4rem 0 2rem 0;
+  }
+  .Marketing {
+    margin-bottom: 2rem;
+  }
+  .Marketing-bg_img {
+    bottom: 38rem;
+  }
+  .work-wrapper {
+    flex-direction: column-reverse;
+  }
+  .company-logo_img1 {
+    width: 7rem;
+  }
+  .company-logo_img2,
+  .company-logo_img3 {
+    width: 6rem;
+  }
+  .company-logo_img4 {
+    width: 17rem;
+  }
+  .company-logo_img5 {
+    width: 13rem;
+    margin-left: 2rem;
+  }
+  .comapany-logo_img6 {
+    width: 16rem;
+  }
+  .comapany-logo_img7 {
+    width: 10rem;
+    margin-left: 6rem;
+  }
+  .form-complete {
+    flex-direction: column;
+  }
+  .form-wrapper {
+    justify-content: center;
+  }
+  .textarea {
+    overflow: hidden;
+    /* margin-left: 13rem; */
+  }
+  .form-talk {
+    margin-top: -21rem;
+  }
+  .form-complete_right {
+    margin-top: 0;
+  }
+  .footer-menus-1 {
+    margin-left: 23rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .menu-item_link,
+  .nav-btn_link {
+    font-size: 1rem;
+  }
+  .nav-button {
+    width: 8rem;
+  }
+  .menus {
+    margin-left: -8rem;
+  }
+  .menu-item {
+    margin-right: 3rem;
+  }
+  .home-title {
+    font-size: 2rem;
+  }
+  .home-img_ri {
+    width: 51rem;
+    height: 44rem;
+  }
+  .home-image_left {
+    height: 44rem;
+  }
+  .design-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .description,
+  .bluestone {
+    text-align: center;
+  }
+  .bluestone-title {
+    max-width: 33rem;
+  }
+  .description-links {
+    justify-content: center;
+  }
+  .company_title {
+    font-size: 1.2rem;
+    max-width: 19rem;
+  }
+  .company_txt {
+    font-size: 1rem;
+    max-width: 22rem;
+  }
+  .company_span1,
+  .company_span2 {
+    font-size: 1rem;
+  }
+  .company-title_image {
+    display: none;
+  }
+  .company-description,
+  .company-image {
+    margin-left: 0;
+  }
+  .compan-logo {
+    margin-right: 0;
+  }
+  .form-talk {
+    margin-left: 0;
+  }
+  .form-complete {
+    margin-left: 2rem;
+  }
+  /* textarea,
+  .form-button {
+    width: 65rem;
+  } */
+  .form-btn_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textarea,
+  textarea,
+  .form-button {
+    width: 63rem;
+    overflow: hidden;
+  }
+  .textarea {
+    margin-left: 0;
+  }
+  .form-button {
+    margin-left: 0;
+  }
+  .form-btn_wrapper {
+    margin-left: -28rem;
+  }
+  .footer-location_tit {
+    font-size: 3rem;
+  }
+  .footer-location_span {
+    display: none;
+  }
+  .footer-menus-1 {
+    margin-left: -3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-top {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+  }
+  .header-top_language,
+  .menus,
+  .nav-button {
+    display: none;
+  }
+  .home-wrapper {
+    flex-direction: column-reverse;
+  }
+  .home-img_ri,
+  .home-image_left {
+    width: 100%;
+  }
+  .home-title {
+    font-size: 3rem;
+    max-width: 40rem;
+    margin-left: -9rem;
+  }
+  .home-description {
+    max-width: 48rem;
+    font-size: 1.8rem;
+    margin-top: 6rem;
+  }
+  .home-link {
+    margin: 5rem 0 0 -32rem;
+  }
+  .exhibitions-img,
+  .Build-img,
+  .Marketing-img,
+  .branding-img {
+    width: 45rem;
+  }
+  .exhibition-title_h2 {
+    max-width: 31rem;
+    font-size: 1.8rem;
+  }
+  .exhibitions-title {
+    height: 12.5rem;
+  }
+  .Build-title_h2,
+  .Marketing-title_h2,
+  .branding-title_h2 {
+    font-size: 1.8rem;
+  }
+  .Build-title,
+  .Marketing-title {
+    height: 6.5rem;
+  }
+  .branding-bg_img {
+    width: 45rem;
+    bottom: -2.4rem;
+  }
+  .Marketing-bg_img {
+    bottom: 27rem;
+    width: 45rem;
+  }
+  .Build-bg_img {
+    bottom: 56.3rem;
+    width: 45rem;
+  }
+  .exhibitions-bg_img {
+    bottom: 85.9rem;
+    width: 45rem;
+  }
+  .work-img-two {
+    display: none;
+  }
+  .work-box {
+    width: 24rem;
+    left: -12rem;
+    top: 1rem;
+    z-index: 1;
+  }
+  .work-img-one {
+    margin-top: 19rem;
+  }
+  .company-wrapper {
+    flex-direction: column-reverse;
+    height: 58rem;
+  }
+  .compan-logo {
+    margin-top: 4rem;
+  }
+  .company_title {
+    margin-left: 7rem;
+    text-align: center;
+  }
+  .company_txt {
+    margin-left: 5.3rem;
+    text-align: center;
+  }
+  .company_span1,
+  .company_span2 {
+    display: none;
+  }
+  .form-wrapper {
+    flex-direction: column;
+  }
+  .form-talk {
+    text-align: center;
+  }
+  .form-talk_title {
+    font-size: 2rem;
+    max-width: 26rem;
+  }
+  .textarea,
+  textarea,
+  .form-button {
+    width: 37rem;
+    overflow: hidden;
+  }
+  .form-btn_wrapper {
+    margin-left: -2rem;
+  }
+  .form-talk {
+    margin-top: 5rem;
+  }
+  .footer-menu_link {
+    font-size: 1rem;
+  }
+  .footer-location_tit {
+    font-size: 2rem;
+  }
+  .footer-location_txt {
+    font-size: 1.1rem;
+  }
+  .footer-menus-1 {
+    margin: 0;
+  }
+  .footer-copyright_txt {
+    font-size: 1rem;
+  }
+  .footer-copyright {
+    flex-direction: column;
+  }
+  .footer-copyright_social {
+    margin-top: 2rem;
+  }
+  .footer-location_email-span,
+  .footer-location_number {
+    font-size: 1rem;
+  }
+  .footer-location_address {
+    font-size: 0.9rem;
+  }
+  .footer-menu_span {
+    font-size: 1.4rem;
+  }
+  .footer-location_email-img,
+  .footer-location_phone-img {
+    width: 1.3rem;
+  }
+  .footer-location_img {
+    width: 1.1rem;
+  }
+  .footer-location_loc {
+    display: flex;
+  }
+  .footer-copyright_use {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .heaeder-top_number,
+  .heaedr-top_email,
+  .slash {
+    display: none;
+  }
+  .home-img_ri {
+    height: 33rem;
+  }
+  .home-image_left {
+    height: 38rem;
+  }
+  .home-title {
+    font-size: 2.2rem;
+  }
+  .home-description {
+    font-size: 1.5rem;
+    max-width: 38rem;
+  }
+  .home-link {
+    margin: 5rem 0 0 -22rem;
+  }
+  .exhibitions-img,
+  .Build-img,
+  .Marketing-img,
+  .branding-img {
+    width: 28rem;
+  }
+  .exhibition-title_h2 {
+    max-width: 20rem;
+  }
+  .exhibition-title_h2,
+  .Build-title_h2,
+  .Marketing-title_h2,
+  .branding-title_h2 {
+    font-size: 1.3rem;
+  }
+  .exhibition-title_h2 {
+    padding-top: 7rem;
+  }
+  .Build-title_h2,
+  .Marketing-title_h2,
+  .branding-title_h2 {
+    padding-top: 4rem;
+  }
+  .exhibitions-bg_img,
+  .Build-bg_img,
+  .Marketing-bg_img,
+  .branding-bg_img {
+    width: 28rem;
+  }
+  .branding-bg_img {
+    bottom: -0.4rem;
+  }
+  .Marketing-bg {
+    display: none;
+  }
+  .Build-bg_img {
+    bottom: 37rem;
+  }
+  .exhibitions-bg_img {
+    bottom: 55.4rem;
+  }
+  .textarea,
+  textarea,
+  .form-button {
+    width: 37rem;
+    overflow: hidden;
+  }
+  .footer-copyright_use-txt1,
+  .footer-copyright_use-txt2,
+  .footer-copyright_use-txt3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .compan-logo {
+    display: none;
+  }
+  .company-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company_txt {
+    margin-left: 1rem;
+  }
+  .company_title {
+    margin-left: 2rem;
+  }
+  .company-image_left {
+    transform: rotate(91deg);
+    margin-right: 1.7rem;
+  }
+  .comapny-image_right {
+    transform: rotate(91deg);
+    margin-right: 3rem;
+  }
+  .company-image_1,
+  .company-image_2,
+  .company-image_3 {
+    margin-bottom: 1rem;
+  }
+  .blogs-questions_img,
+  .blogs-questions_descriptions {
+    width: 28.3rem;
+  }
+  .blogs-questions_h3 {
+    font-size: 1.3rem;
+    max-width: 23rem;
+  }
+  .blogs-questions_month1 {
+    font-size: 2rem;
+  }
+  .blogs-questions_month2,
+  .blogs-questions_txt,
+  .blogs-link {
+    font-size: 1rem;
+  }
+  .blogs-questions_months,
+  .blogs-questions_h3 {
+    margin-left: 2rem;
+  }
+  .blogs-link_svg {
+    width: 1rem;
+  }
+  .form-input_name,
+  .form-input_email,
+  .form-input_company,
+  .form-input_phone,
+  .form-input_sevice,
+  .form-select_menu {
+    width: 24rem;
+  }
+  .textarea,
+  textarea,
+  .form-button {
+    width: 24rem;
+    overflow: hidden;
+  }
+  .form-btn_wrapper {
+    margin-left: -2rem;
+  }
+  .form-complete_text {
+    font-size: 1.5rem;
+  }
+  .footer-location,
+  .footer-locaton--mt {
+    flex-direction: column;
+  }
+  .footer-copyright_txt {
+    max-width: 20rem;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home-description {
+    font-size: 1.2rem;
+    max-width: 24rem;
+  }
+  .home-title {
+    font-size: 1.9rem;
+    margin-left: 1rem;
+  }
+  .home-link {
+    margin: 5rem 0 0 -8rem;
+  }
+  .exhibitions-img,
+  .Build-img,
+  .Marketing-img,
+  .branding-img {
+    width: 17rem;
+    padding-bottom: 2rem;
+  }
+  .exhibition-title_h2 {
+    max-width: 13rem;
+  }
+  .exhibition-title_h2,
+  .Build-title_h2,
+  .Marketing-title_h2,
+  .branding-title_h2 {
+    display: none;
+  }
+  .exhibitions-bg_img,
+  .Build-bg_img,
+  .Marketing-bg_img,
+  .branding-bg_img,
+  .work-two-titlw {
+    display: none;
+  }
+  .work-img-one,
+  .work-img-three {
+    width: 17rem;
+  }
+  .work-box {
+    left: -8.5rem;
+    max-width: 17rem;
+    height: 18.5rem;
+  }
+  .work-img-one {
+    margin-top: 21rem;
+  }
+  .work-three-text {
+    font-size: 2rem;
+  }
+  .work-three-titlw {
+    left: 0;
+    top: 0;
+    width: 6rem;
+  }
+  .blogs-questions_img,
+  .blogs-questions_descriptions {
+    width: 18.3rem;
+  }
+  .blogs-questions_h3 {
+    font-size: 1rem;
+  }
+  .description {
+    text-align: left;
+  }
+  .footer-copyright_use-txt1,
+  .footer-copyright_use-txt2,
+  .footer-copyright_use-txt3 {
+    font-size: 0.8rem;
+  }
+  .footer-social_img-1 {
+    width: 0.9rem;
+  }
+  .footer-social_img-2,
+  .footer-social_img-3,
+  .footer-social_img-4,
+  .footer-social_logo-5 {
+    width: 1.8rem;
+  }
+  .footer-social_logo-1,
+  .footer-social_logo-2,
+  .footer-social_logo-3,
+  .footer-social_logo-4 {
+    padding: 0 1rem 0 1rem;
+  }
+  .footer-social_logo-5 {
+    padding-left: 1rem;
+  }
+  .footer-copyright_social {
+    margin-left: -4rem;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .home-img_ri {
+    height: 20rem;
+  }
+  .home-image_left {
+    height: 35rem;
+  }
+  .section-head_work {
+    margin-top: 10rem;
+  }
+  .form-input_name,
+  .form-input_email,
+  .form-input_company,
+  .form-input_phone,
+  .form-input_sevice,
+  .form-select_menu {
+    width: 18rem;
+  }
+  .form-input_name,
+  .form-input_email,
+  .form-input_company,
+  .form-input_phone,
+  .form-input_sevice::placeholder {
+    font-size: 1rem;
+  }
+  .form-select_menu {
+    font-size: 1rem;
+  }
+  .form-talk_title {
+    font-size: 1.5rem;
+    max-width: 20rem;
+    margin-left: 0.8rem;
+  }
+  .form-talk_text {
+    font-size: 1rem;
+    max-width: 18rem;
+    margin-left: 1.7rem;
+  }
+  .form-talk_email {
+    font-size: 1rem;
+  }
+  .textarea,
+  textarea,
+  .form-button {
+    width: 18rem;
+    overflow: hidden;
+  }
+  .form-complete_text {
+    font-size: 1.2rem;
+  }
+  .footer-menus_wrapper {
+    flex-direction: column;
+  }
+  .footer-location_title ,
+  .footer-location_txt {
+    text-align: center;
+  }
+  .footer-copyright_txt {
+    font-size: .8rem;
+  }
+  .footer-location_email-span {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+}
+
+/* 
+
+--Min Width
+
+*/
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 378px) {
+}
